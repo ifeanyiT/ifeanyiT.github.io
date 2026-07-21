@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ifeanyi Eze — n8n Automation Specialist | Workflow &amp; AI Automation Engineer</title>
+  <meta name="description" content="Ifeanyi Eze — n8n Automation Specialist and founder of IchakaSystems. Building production-grade workflow systems with n8n, APIs and Python: WhatsApp agents, multi-agent sales systems, fintech automation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== BACKGROUND GRID ===== -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo mono">&lt;IE /&gt;</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <span class="badge"><span class="pulse-dot"></span> Available for opportunities</span>
+          <p class="hero-hi">Hi, I'm</p>
+          <h1 class="hero-name">Ifeanyi <span class="grad-text">Eze</span></h1>
+          <div class="hero-role mono"><span id="typed"></span><span class="cursor">|</span></div>
+          <p class="hero-tagline">Building Intelligent Automations That Connect, Think &amp; Deliver</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+            <a href="EZE_Ifeanyi_Trust_n8n_Specialist_Resume.pdf" download class="btn btn-ghost mono">DOWNLOAD CV ↓</a>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-label mono reveal">DISCOVERY</p>
+        <h2 class="section-title reveal">About <span class="grad-text">Me</span></h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm an <strong>n8n Automation Specialist</strong> who designs, builds and ships
+              production-grade workflow systems that connect messaging platforms, CRMs, databases,
+              payment rails and AI models into reliable end-to-end automations.
+            </p>
+            <p>
+              As founder of <strong>IchakaSystems</strong>, I deliver multi-tenant, AI-powered n8n
+              systems for businesses across messaging, sales, fintech and operations — turning manual,
+              repetitive processes into autonomous, self-running workflows.
+            </p>
+            <ul class="about-facts mono">
+              <li><span>Degree:</span> B.Sc. Computer Science — University of Port Harcourt</li>
+              <li><span>Company:</span> IchakaSystems — Founder</li>
+              <li><span>Core Stack:</span> n8n · APIs · Python</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          </div>
+          <div class="code-card reveal" aria-hidden="true">
+            <div class="code-card-head">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-title mono">ifeanyi.js</span>
+            </div>
+            <pre class="mono"><code><span class="ln">1</span><span class="kw">const</span> <span class="var">ifeanyi</span> = {
+<span class="ln">2</span>  <span class="prop">role</span>: <span class="str">'n8n Automation Specialist'</span>,
+<span class="ln">3</span>  <span class="prop">company</span>: <span class="str">'IchakaSystems'</span>,
+<span class="ln">4</span>  <span class="prop">stack</span>: <span class="str">'n8n · APIs · Python'</span>,
+<span class="ln">5</span>  <span class="prop">motto</span>: <span class="str">'Automate Everything'</span>,
+<span class="ln">6</span>  <span class="prop">shipping</span>: <span class="bool">true</span>
+<span class="ln">7</span>};<span class="blink">_</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label mono reveal">CAPABILITIES</p>
+        <h2 class="section-title reveal">Technical <span class="grad-text">Arsenal</span></h2>
+        <div class="skills-grid" id="skillsGrid"><!-- rendered by script.js --></div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label mono reveal">SHOWCASE</p>
+        <h2 class="section-title reveal">Featured <span class="grad-text">Projects</span></h2>
+        <div class="filter-bar reveal" id="filterBar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="agents">WhatsApp &amp; AI Agents</button>
+          <button class="filter-btn" data-filter="automation">Business Automation</button>
+          <button class="filter-btn" data-filter="fintech">Fintech</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid"><!-- rendered by script.js --></div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section-label mono reveal">JOURNEY</p>
+        <h2 class="section-title reveal">My <span class="grad-text">Experience</span></h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>Founder &amp; n8n Automation Specialist — IchakaSystems</h3>
+              <p class="timeline-meta mono">2024 — Present · AI Automation Studio · Port Harcourt, Nigeria</p>
+              <ul>
+                <li>Founded an AI automation studio delivering end-to-end n8n workflow systems connecting messaging, CRM, database and payment tools into autonomous business processes</li>
+                <li>Built a multi-tenant WhatsApp pharmacy refill automation — WhatsApp Cloud API, Supabase, Python, OpenAI and Paystack — now the reference architecture for subsequent builds</li>
+                <li>Designed a multi-agent B2B sales system with Prospecting, RevOps and SDR sub-agents orchestrated across Pipedrive and Gmail</li>
+                <li>Developed a six-sub-agent AI Social Media Manager and onboarded its first client</li>
+                <li>Currently building Restocka — a WhatsApp-based AI ordering and collections agent for distributors and informal retailers</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <h3>B.Sc. Computer Science — University of Port Harcourt</h3>
+              <p class="timeline-meta mono">Graduated 2025 · Rivers State, Nigeria</p>
+              <ul>
+                <li>Director of Transport (two terms) — led transport logistics and coordination for the student body</li>
+                <li>Provost — Nigerian Association of Computer Science Students (NACOSS), Rivers State</li>
+                <li>Course Representative — liaison between students and faculty</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="also-proficient reveal">
+          <h4 class="mono">Solution Domains</h4>
+          <div class="chip-row">
+            <span class="chip">Conversational AI Agents</span>
+            <span class="chip">B2B Sales Automation</span>
+            <span class="chip">Fintech · Payments &amp; BNPL</span>
+            <span class="chip">Social Media Automation</span>
+            <span class="chip">Operations Automation</span>
+            <span class="chip">Multi-Agent Orchestration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <p class="section-label mono reveal">ACHIEVEMENTS</p>
+        <h2 class="section-title reveal">My <span class="grad-text">Certifications</span></h2>
+        <div class="certs-grid">
+          <article class="cert-card reveal">
+            <p class="cert-date mono">MAY 13, 2026</p>
+            <h3>AI Builder: Create Agents, Voice Agents &amp; Automations in n8n</h3>
+            <p class="cert-org mono">Udemy — Ligency &amp; Ed Donner · 14.5 hours</p>
+            <p>Built AI agents, voice agents and production automations in n8n — covering multi-agent orchestration, webhooks, integrations and LLM-powered workflows.</p>
+            <a href="https://ude.my/UC-38f0b68c-deaf-431e-98f7-a99cbaac30cf" target="_blank" rel="noopener" class="cert-link mono">View Certificate ↗</a>
+          </article>
+          <article class="cert-card reveal">
+            <p class="cert-date mono">SEPT 29, 2023</p>
+            <h3>Flask for Beginners: Create Real World Interactive Apps</h3>
+            <p class="cert-org mono">Udemy — Bluelime Learning Solutions · 9.5 hours</p>
+            <p>Built real-world interactive web applications with Python and Flask — routing, templates, forms and deploying working apps.</p>
+            <a href="https://ude.my/UC-c79eb1b5-eefb-40f0-bba2-61fafc1e56e8" target="_blank" rel="noopener" class="cert-link mono">View Certificate ↗</a>
+          </article>
+          <!-- Duplicate this card for more certifications -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="section-label mono reveal">CONNECTION</p>
+        <h2 class="section-title reveal">Let's <span class="grad-text">Synchronize</span></h2>
+        <p class="contact-lede reveal">
+          Whether you have a workflow to automate or just want to talk AI agents and n8n,
+          my inbox is always open.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-row"><span class="info-label mono">EMAIL</span><a href="mailto:trustlugard9@gmail.com">trustlugard9@gmail.com</a></div>
+            <div class="info-row"><span class="info-label mono">COMM</span><a href="tel:+2349065356388">+234 906 535 6388</a></div>
+            <div class="info-row"><span class="info-label mono">BASE</span><span>Port Harcourt, Nigeria</span></div>
+            <div class="info-row"><span class="info-label mono">LINKEDIN</span><a href="https://www.linkedin.com/in/ifeanyi-eze-994790236/" target="_blank" rel="noopener">linkedin.com/in/ifeanyi-eze-994790236</a></div>
+            <div class="info-row"><span class="info-label mono">GITHUB</span><a href="https://github.com/ifeanyiT" target="_blank" rel="noopener">github.com/ifeanyiT</a></div>
+            <div class="availability-card">
+              <p class="mono info-label">AVAILABILITY STATUS</p>
+              <p>Currently accepting automation projects and roles in n8n Workflow Engineering, AI Agents &amp; Fintech Automation. Responses usually take less than 24 hours.</p>
+              <p class="mono status-live"><span class="pulse-dot"></span> ACTIVE &amp; READY</p>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <p class="mono form-title">Transmit Message</p>
+            <label class="mono" for="f-name">IDENTITY</label>
+            <input id="f-name" name="name" type="text" placeholder="Your name" required />
+            <label class="mono" for="f-email">SIGNAL</label>
+            <input id="f-email" name="email" type="email" placeholder="your@email.com" required />
+            <label class="mono" for="f-subject">OBJECTIVE</label>
+            <input id="f-subject" name="subject" type="text" placeholder="What's this about?" required />
+            <label class="mono" for="f-message">DATA STREAM</label>
+            <textarea id="f-message" name="message" rows="5" placeholder="Describe your project..." required></textarea>
+            <button type="submit" class="btn btn-primary mono">Initiate Transmission ⚡</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="mono">© <span id="year"></span> Ifeanyi Eze · IchakaSystems — Built with n8n energy ⚡</p>
+      <div class="footer-links mono">
+        <a href="https://www.linkedin.com/in/ifeanyi-eze-994790236/" target="_blank" rel="noopener">LNKDN ↗</a>
+        <a href="mailto:trustlugard9@gmail.com">MAIL ↗</a>
+        <a href="https://github.com/ifeanyiT" target="_blank" rel="noopener">GITHUB ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
